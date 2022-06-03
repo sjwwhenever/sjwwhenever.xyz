@@ -25,7 +25,7 @@ body
 
 .menu{
     position: fixed;
-    top: 35px;
+    top: 90px;
     left: 35px;
     text-align: left;
     width: auto;
@@ -34,20 +34,96 @@ body
 
 .menu a{
     font-family: roboto-mono, monospace;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
-    font-size: 36px;
-    letter-spacing: 0.2em;
+    font-size: 24px;
     will-change: opacity;
     display: block;
     width: auto;
     margin-bottom: 15px;
-    opacity: 0.4;
+    opacity: 0.9;
     color: white;
 }
 
 .menu a:link{
     color: white;
+}
+
+hr{
+    position: absolute;
+    height: 0px;
+    left: 3.12%;
+    right: 3.12%;
+    top: 60px;
+
+    border: 1px solid #FFFFFF;
+}
+
+.header{
+    position: absolute;
+    height: 80px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.Menu-AboutMe{
+    position: absolute;
+    height: 15px;
+    left: 11.33%;
+    right: 72.27%;
+    top: 33px;
+
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.Menu-Projects{
+    position: absolute;
+    width: 210px;
+    height: 15px;
+    left: calc(50% - 210px/2);
+    top: 33px;
+
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Menu-Contact{
+    position: absolute;
+    height: 15px;
+    left: 72.66%;
+    right: 10.94%;
+    top: 33px;
+
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+
 }
 
 /*# sourceMappingURL=main.css.map*/
